@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!-- API Gateway: ponto único de entrada. Encaminha /api/<recurso> ao serviço dono do recurso. -->
+  <ItemGroup>
+    <ProjectReference Include="..\ArteSuave.Infra\ArteSuave.Infra.csproj" />
+  </ItemGroup>
+</Project>
