@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!-- Microserviço de Relatórios: não guarda dados, monta os relatórios a partir do serviço de Vendas. -->
+  <ItemGroup>
+    <ProjectReference Include="..\ArteSuave.Infra\ArteSuave.Infra.csproj" />
+  </ItemGroup>
+</Project>
