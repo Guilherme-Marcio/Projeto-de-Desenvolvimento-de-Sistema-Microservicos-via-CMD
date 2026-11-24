@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!-- Microserviço de Vendas: registra vendas e pede ao Catálogo a baixa do estoque. -->
+  <ItemGroup>
+    <ProjectReference Include="..\ArteSuave.Infra\ArteSuave.Infra.csproj" />
+  </ItemGroup>
+</Project>
