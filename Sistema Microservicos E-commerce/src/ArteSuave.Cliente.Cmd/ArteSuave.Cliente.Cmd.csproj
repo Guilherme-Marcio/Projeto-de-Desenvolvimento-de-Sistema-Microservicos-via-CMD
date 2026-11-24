@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Cliente de console: o mesmo menu do monólito, sem regra de negócio nem arquivos.
+       Cada opção vira uma chamada HTTP ao API Gateway. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArteSuave.Compartilhado\ArteSuave.Compartilhado.csproj" />
+  </ItemGroup>
+</Project>
