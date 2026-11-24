@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Infraestrutura comum dos serviços web: configuração do host, log das requisições,
+       tratamento de erros, health check (/saude) e gravação de dados em arquivo JSON. -->
+  <PropertyGroup>
+    <RootNamespace>ArteSuave.Infra</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArteSuave.Compartilhado\ArteSuave.Compartilhado.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Contratos (DTOs) trocados entre os serviços, endereços e cliente HTTP.
+       Não tem regra de negócio: cada serviço é dono da sua lógica e dos seus dados. -->
+  <PropertyGroup>
+    <RootNamespace>ArteSuave.Compartilhado</RootNamespace>
+  </PropertyGroup>
+</Project>
