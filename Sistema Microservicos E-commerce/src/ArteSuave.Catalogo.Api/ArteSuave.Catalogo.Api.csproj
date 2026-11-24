@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!-- Microserviço de Catálogo: dono dos kimonos, equipamentos e do estoque. -->
+  <ItemGroup>
+    <ProjectReference Include="..\ArteSuave.Infra\ArteSuave.Infra.csproj" />
+  </ItemGroup>
+</Project>
