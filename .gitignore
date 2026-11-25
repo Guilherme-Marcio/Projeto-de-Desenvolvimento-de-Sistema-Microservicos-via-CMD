@@ -1,0 +1,9 @@
+# Arquivos gerados pela compilação e pelo Visual Studio
+bin/
+obj/
+.vs/
+*.user
+
+# Dados gravados pelos programas ao rodar
+dados/
+*.txt.tmp
